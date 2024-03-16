@@ -7,9 +7,9 @@ jobs:
       - name: my-step
         run: echo "Hello World!"
 
-name: Build App
-on: push
-jobs: 
+# name: Build App
+# on: push
+# jobs: 
 
 # BUILD APP
 
