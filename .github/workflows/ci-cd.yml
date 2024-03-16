@@ -7,12 +7,7 @@ jobs:
       - name: my-step
         run: echo "Hello World!"
 
-# name: Build App
-# on: push
-# jobs: 
-
 # BUILD APP
-
   build:
     runs-on: ubuntu-latest
     steps: 
@@ -33,7 +28,6 @@ jobs:
          path: ./dist
 
 # DEPLOY APP
-
   deploy:
     # Add a dependency to the build job
     needs: build
